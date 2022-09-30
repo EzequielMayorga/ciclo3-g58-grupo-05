@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Administración</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">  
+  </head>
+  <body>
+    <div class="container text-center bg-secondary mt-3" >
+      <h1>Bienvenido a Administración</h1>
+    </div>
+    <div class="container mt-5 text-center">
+      <form name="producto_cambios" method="post" action="??" enctype="multipart/form-data" autocomplete="off">
+        <div clas="row">
+          <div class="col">
+          <label >Nombre: </label>
+          <input type="text" name="nombre" placeholder="nombre del producto">
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col">
+          <label >Categoria:</label>
+          <select>
+            <option value="">Seleccione....</option>
+            <option value="1">Estampada</option>
+            <option value="2">Camibuzo</option>
+            <option value="3">Franelilla</option>
+          </select>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col mt-3">
+            <label >Precio:</label>
+            <input type="number" name="precio" placeholder="precio">
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col">
+            <h3>Seleccione una de las opciones</h3>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col">
+            <input type="radio" name="opc"> Ajustar
+            <input type="radio" name="opc"> Inactivar
+            <input type="radio" name="opc"> Registrar
+            
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col">
+            <input type="submit" name="boton" value="Guardar">
+          </div>
+        </div> 
+    </div>
+    </div> 
+  </body>
+</html>
